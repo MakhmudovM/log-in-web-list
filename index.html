@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login View</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container container-wrapper">
+      <div class="left"></div>
+      <div class="right">
+        <div class="right-content-wrapper">
+          <p>Welcome back</p>
+          <h1 class="right-title">Login to your account</h1>
+          <form
+            class="global-form"
+            action="https://echo.htmlacademy.ru"
+            method="post"
+          >
+            <label class="global-form-label">
+              <span class="global-form-text">Email</span>
+              <input
+                class="global-form-input"
+                type="email"
+                placeholder="John.snow@gmail.com"
+                name="email"
+                required
+              />
+            </label>
+            <label class="global-form-label">
+              <span class="global-form-text">Password</span>
+              <input
+                class="global-form-input"
+                type="password"
+                placeholder="********"
+                name="password"
+                required
+              />
+            </label>
+            <div class="form-action">
+              <label class="form-action-label">
+                <input class="form-action-input" type="radio" />
+                <span class="form-action-text">Remember me</span>
+              </label>
+              <a class="form-action-link" href="#">Forget password?</a>
+            </div>
+            <div class="form-buttons">
+              <a class="form-buttons-btn login-btn" href="#">Login now</a>
+              <a class="form-buttons-btn sigin-btn" href="#">
+                <img
+                  class="form-buttons-btn-img"
+                  src="/img/google.icon.png"
+                  alt="google-icon"
+                  width="20"
+                  height="20"
+                />
+                <span class="form-buttons-btn-text"
+                  >Or sign-in with google</span
+                ></a
+              >
+            </div>
+          </form>
+          <div class="join-link-wrapper">
+            <p class="join-link">
+              Dont have an account? <a href="#">Join free today</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
